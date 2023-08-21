@@ -9,7 +9,7 @@ const ProductDetail = () => {
 
  
   const getProductDetail = async () => {
-    let url = `https://my-json-server.typicode.com/k-sons/13-3repolic/products/${id}`;
+    let url = `https://my-json-server.typicode.com/k-sons/lego/products/${id}`;
     let res = await fetch(url);
     let data = await res.json();
     console.log(data);
