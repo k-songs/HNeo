@@ -13,7 +13,7 @@ const ProductAll = () => {
 
   const getProduct = async() => {
     const searchQuery = query.get("q") ||"";
-    let url = `https://my-json-server.typicode.com/k-songs/github-action/products/?q=${searchQuery}`;
+    let url = `https://my-json-server.typicode.com/k-songs/HNeo/products/?q=${searchQuery}`;
     let res = await fetch(url);
     let data = await res.json();
 
